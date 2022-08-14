@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Two Teams:)</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <div class="row">
+        <div class="one-half column" style="margin-top: 5%">
+          <h4>Two Teams</h4>
+          <p>
+            This is a fun application which can be used to divide a group of
+            people into two teams 😁 .
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one-half column">
+          <form>
+            <label for="player">Player</label>
+            <input type="text" name="player" id="player-name" />
+            <button id="submit-btn" type="submit">Add</button>
+            <button class="button-primary" id="create-btn">
+              Shuffle Teams
+            </button>
+          </form>
+        </div>
+        <div class="one-half column">
+          <h4>Players List</h4>
+          <ol id="players-list"></ol>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one-half column">
+          <h3>Team A</h3>
+          <ol id="teamA"></ol>
+        </div>
+        <div class="one-half column">
+          <h3>Team B</h3>
+          <ol id="teamB"></ol>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+</html>

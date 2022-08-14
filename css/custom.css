@@ -1,0 +1,13 @@
+#players-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+#players-list li {
+  text-transform: capitalize;
+}
+
+#teamA,
+#teamB {
+  text-transform: capitalize;
+}
